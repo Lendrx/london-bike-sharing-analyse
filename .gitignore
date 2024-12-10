@@ -20,6 +20,9 @@ wheels/
 .installed.cfg
 *.egg
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
 # Virtual Environment
 .env
 .venv
@@ -32,10 +35,13 @@ ENV/
 *.swp
 *.swo
 
-# Tableau
-*.twbr
+# Tableau Files
 *.twb
+*.twbr
 *.twbx
+*.twb~
+*.twbx~
+bikes-london-project.twb
 Backup/
 
 # Data

@@ -18,8 +18,7 @@ Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems m
 │   ├── london_merged.csv
 │   └── london-bikes-final-data.xlsx
 ├── docs/              # Zusätzliche Dokumentation
-├── images/            # Dashboard Screenshots
-└── bikes-london-project.twb   # Tableau Visualisierungen
+└── images/            # Dashboard Screenshots
 ```
 
 ## Installation & Nutzung
@@ -29,7 +28,7 @@ Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems m
    pip install pandas kaggle openpyxl jupyter
    ```
 3. Jupyter Notebook ausführen
-4. Tableau-Workbook öffnen
+4. Optional: Eigene Tableau-Visualisierungen erstellen
 
 ## Datenaufbereitung (notebooks/london-bikes.ipynb)
 1. Datenimport von Kaggle
@@ -45,9 +44,9 @@ Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems m
 
 ## Technologien
 - Python 3.12
-- Tableau 2024.1
 - Pandas
 - Kaggle API
+- Optional: Tableau 2024.1
 
 ## Datenquelle
 London Bike Sharing Dataset (Kaggle)
