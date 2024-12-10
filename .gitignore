@@ -35,17 +35,19 @@ ENV/
 *.swp
 *.swo
 
-# Tableau Files
+# Tableau
+/tableau/
 *.twb
 *.twbr
 *.twbx
 *.twb~
 *.twbx~
-bikes-london-project.twb
 Backup/
 
 # Data
-*.zip
+*.csv
+*.xlsx
+!data/london-bikes-final-data.xlsx
 
 # OS
 .DS_Store

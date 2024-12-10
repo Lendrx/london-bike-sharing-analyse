@@ -3,6 +3,9 @@
 ## Überblick
 Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems mittels Python und Tableau. Es zeigt die Zusammenhänge zwischen Wetterbedingungen, Tageszeiten und Fahrradnutzung.
 
+## Dashboard
+![London Bike-Sharing Dashboard](images/london-bike-sharing-analyse.png)
+
 ## Funktionen
 - Interaktives Tableau-Dashboard
 - Wetter- und Nutzungsanalyse
@@ -19,6 +22,7 @@ Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems m
 │   └── london-bikes-final-data.xlsx
 ├── docs/              # Zusätzliche Dokumentation
 └── images/            # Dashboard Screenshots
+    └── london-bike-sharing-analyse.png
 ```
 
 ## Installation & Nutzung
@@ -37,10 +41,16 @@ Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems m
 4. Export für Tableau
 
 ## Dashboard-Funktionen
-- Gesamtfahrten-Übersicht
-- Temperatur/Wind-Heatmap
-- Wettereinfluss-Analyse
-- Stündliche Nutzungsmuster
+
+### Übersicht
+- Gesamtanzahl der Fahrten im ausgewählten Zeitraum
+- Interaktive Zeitreihenanalyse mit gleitendem Durchschnitt
+- Anpassbare Zeitfenster (Tag/Woche/Monat)
+
+### Detailanalysen
+- Temperatur/Wind-Heatmap für optimale Fahrbedingungen
+- Wettereinfluss auf Nutzungshäufigkeit
+- Stündliche Nutzungsmuster und Spitzenzeiten
 
 ## Technologien
 - Python 3.12
