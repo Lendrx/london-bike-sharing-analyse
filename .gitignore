@@ -34,8 +34,8 @@ ENV/
 
 # Tableau
 *.twbr
-*.twb~
-*.twbx~
+*.twb
+*.twbx
 Backup/
 
 # Data
