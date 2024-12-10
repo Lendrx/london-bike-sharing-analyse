@@ -12,11 +12,14 @@ Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems m
 ## Projektstruktur
 ```
 /
-├── london-bikes.ipynb     # Datenaufbereitung und Analyse
-├── bikes-london-project.twb   # Tableau Visualisierungen
-└── data/
-    ├── london_merged.csv      # Rohdaten
-    └── london-bikes-final-data.xlsx  # Aufbereitete Daten
+├── notebooks/          # Jupyter Notebooks zur Datenverarbeitung
+│   └── london-bikes.ipynb
+├── data/              # Rohdaten und verarbeitete Daten
+│   ├── london_merged.csv
+│   └── london-bikes-final-data.xlsx
+├── docs/              # Zusätzliche Dokumentation
+├── images/            # Dashboard Screenshots
+└── bikes-london-project.twb   # Tableau Visualisierungen
 ```
 
 ## Installation & Nutzung
@@ -28,7 +31,7 @@ Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems m
 3. Jupyter Notebook ausführen
 4. Tableau-Workbook öffnen
 
-## Datenaufbereitung (london-bikes.ipynb)
+## Datenaufbereitung (notebooks/london-bikes.ipynb)
 1. Datenimport von Kaggle
 2. Bereinigung und Transformation
 3. Feature Engineering (Wetter, Jahreszeiten)
@@ -50,4 +53,4 @@ Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems m
 London Bike Sharing Dataset (Kaggle)
 
 ## Lizenz
-MIT
+Dieses Projekt steht unter der MIT-Lizenz - siehe [LICENSE](LICENSE)
