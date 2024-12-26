@@ -60,6 +60,3 @@ Dieses Projekt analysiert die Nutzungsmuster des Londoner Bike-Sharing-Systems m
 
 ## Datenquelle
 London Bike Sharing Dataset (Kaggle)
-
-## Lizenz
-Dieses Projekt steht unter der MIT-Lizenz - siehe [LICENSE](LICENSE)
